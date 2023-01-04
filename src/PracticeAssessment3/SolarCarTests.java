@@ -40,7 +40,7 @@ class SolarCarTests {
 		car.accelerate();
 		car.accelerate();
 		// Assert
-		assertEquals(1, car.getSpeed());
+		assertEquals(2, car.getSpeed());
 	}
 
 	// isFuelEmpty returns false.
